@@ -1,5 +1,19 @@
+body{background-color: crimson;}
+.container{
+   display:flex;
+}
+.cartao{
+    background-color: crimson;
+
+}
+
+
 .cartao_conteudo h3 {
-    background-color: tomato;
+    background-color: rgb(218, 206, 204);
+    height: 1rem;
+    margin: 1rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
     text-align: left;
     padding: 0.5rem;
     position: absolute;
